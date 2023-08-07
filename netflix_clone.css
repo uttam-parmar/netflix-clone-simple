@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("netflixbackground.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 12%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-top: 5px;
+}
+.logo{
+    width: 150px;
+}
+.btn{
+    display: inline-flex;
+    justify-content: center;
+}
+nav button{
+    border: none;
+    outline: none;
+    background: #e50914;
+    color: white;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 24px;
+}
+.signinbtn:hover{
+    background-color: #8e080e;
+}
+.earth{
+    width: 15px;
+    margin-right: 8px;
+}
+.language{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 0.5px solid white;
+    padding: 7px 10px;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    border-radius: 4px;
+}
+.arrow{
+    width: 8px;
+    margin-left: 10px;
+    margin-right: 12px;
+}
+.headercontent{
+         position: absolute;
+         left: 50%;
+         top: 50%;
+         transform: translate(-50%,-50%);
+         text-align: center;
+         margin-top: 100px;
+}
+.headercontent h1{
+    font-size: 45px;
+    font-weight: 1000;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 880px;
+    margin-bottom: 16px;
+}
+.second-font-style {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.watch{
+    font-size: 22px;
+    margin: 16px 0;
+    font-weight: 500;
+}
+.emailline{
+    font-size: 20px;
+}
+.emailsignup{
+    border: none;
+    outline: none;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    outline: 1px solid grey;
+    border-radius: 4px;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 250px;
+    padding-left: 15px;
+    color: white;
+    font-size: 16px;
+}
+.emailsignup::placeholder{
+    font-size: 16px;
+    color: rgb(181, 179, 179);
+}
+.signupbtn{
+    background: #e50914;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: 500;
+    padding: 0px 8px;
+    display: inline-flex;
+    align-items: center;
+    
+}
+.signup{
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 14px;
+}
+.divider{
+    height: 6px;
+    background-color: rgb(57, 57, 57);
+}
+.feature{
+    padding: 50px 150px;
+
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.textcolumn{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.imagecolumn{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.imagecolumn img{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.biggertext{
+    font-size: 50px;
+    font-weight: 600;
+}
+.smallertext{
+    font-size: 20px;
+    margin-top: 20px;
+}
+#msg{
+    position: absolute;
+    bottom: -20px;
+    left: 110px;
+    top: calc(100% + 5px);
+}
+.footer{
+    margin-top: 60px;
+    padding: 50px 15% 10px;
+}
+
+.footer h2{
+    font-size: medium;
+    font-weight: 400;
+    color: #ffffffb3;
+    margin-bottom: 30px;
+}
+
+.footerrow {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer .footercolumn {
+    flex-basis: 25%;
+    margin-bottom: 20px;
+}
+
+.footer .footercolumn a{
+    display: block;
+    text-decoration: underline;
+    color: #ffffffb3;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.footertext{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #ffffffb3;
+    font-size: 14px;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
